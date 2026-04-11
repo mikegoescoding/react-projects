@@ -17,20 +17,21 @@ function App() {
       <h1
         id="center"
         className="counter"
+        style={{ color: count < 0 ? "red" : "white" }}
       >
         {count}
       </h1>
       <button
         style={{ width: 100, height: 60 }}
-        onClick={add}
-      >
-        plus
-      </button>
-      <button
-        style={{ width: 100, height: 60 }}
         onClick={subtract}
       >
         minus
+      </button>
+      <button
+        style={{ width: 100, height: 60 }}
+        onClick={add}
+      >
+        plus
       </button>
     </>
   );
