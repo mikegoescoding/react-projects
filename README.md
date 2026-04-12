@@ -29,6 +29,11 @@ Built with `useState`, `useEffect`, and array filtering.
 A store pickup or delivery selector. Two-button toggle with active state styling, icon display, and reset.
 Built with `useState`, conditional classNames, and accessibility attributes (`aria-pressed`, `aria-label`, `role="group"`).
 
+### quick-dataflow
+
+A parent-owned state exercise with multiple child components. Explores how state lives in a parent and flows down to children as props, how children trigger parent state changes through function props, and how multiple components can consume the same state simultaneously. Implements both a live update pattern and a form submit pattern with local child state and controlled inputs.
+Built with `useState`, controlled inputs, and function props.
+
 ## Tech Stack
 
 React, Vite, JavaScript
