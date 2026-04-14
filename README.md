@@ -34,6 +34,16 @@ Built with `useState`, conditional classNames, and accessibility attributes (`ar
 A parent-owned state exercise with multiple child components. Explores how state lives in a parent and flows down to children as props, how children trigger parent state changes through function props, and how multiple components can consume the same state simultaneously. Implements both a live update pattern and a form submit pattern with local child state and controlled inputs.
 Built with `useState`, controlled inputs, and function props.
 
+### quick-timer
+
+A countdown timer from 10 to 0 with start, stop, and reset controls. Stops automatically at zero.
+Built with `useState`, `useEffect`, and `useRef` for interval management.
+
+### quick-controlled-form
+
+Form with three controlled inputs — firstName, lastName, and email. Using a single object in state and a single handleChange function. Displays the three values so you can see them updating live.
+Built with `useState`
+
 ## Tech Stack
 
 React, Vite, JavaScript
