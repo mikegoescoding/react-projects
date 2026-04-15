@@ -49,6 +49,11 @@ Built with `useState`
 A small product list with add to cart functionality, individual item removal, and a running total.
 Built with `useState`, speading arrays, `filter`, `reduce`, and `Date.now()` for unique cart entry IDs.
 
+### quick-tempconvert
+
+A two-input temperature converter. Type in either Celsius or Fahrenheit and the other updates automatically. Demonstrates lifting state to a common parent so sibling components can share and sync a single piece of state.
+Built with `useState`, controlled inputs, and derived state calculations.
+
 ## Tech Stack
 
 React, Vite, JavaScript
