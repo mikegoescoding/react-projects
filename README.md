@@ -44,6 +44,11 @@ Built with `useState`, `useEffect`, and `useRef` for interval management.
 Form with three controlled inputs — firstName, lastName, and email. Using a single object in state and a single handleChange function. Displays the three values so you can see them updating live.
 Built with `useState`
 
+### quick-cart
+
+A small product list with add to cart functionality, individual item removal, and a running total.
+Built with `useState`, speading arrays, `filter`, `reduce`, and `Date.now()` for unique cart entry IDs.
+
 ## Tech Stack
 
 React, Vite, JavaScript
