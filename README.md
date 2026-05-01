@@ -62,6 +62,7 @@ React, Vite, JavaScript
 
 Each project lives in its own folder. To run:
 
+
 ```bash
 cd project-name
 npm install
